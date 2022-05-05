@@ -1,0 +1,94 @@
+body{
+  background-color: palegreen;
+}
+
+
+#column1 {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: safe right;
+  width: 20vw;
+  height: 80%;
+  text-align: left;
+  padding: 14px;
+  z-index: 8;
+}
+
+#column2 {
+    position: fixed;
+    display: inline-block;
+    flex-direction: row;
+    justify-content: safe center;
+    width: 20vw;
+    height: 90%;
+    text-align: left;
+    padding: 214px;
+    z-index: 1;
+}
+
+#column3 {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: safe center;
+  width: 20vw;
+  height: 80%;
+  text-align: center;
+  padding: 14px;
+  z-index: 8;
+}
+
+#row1 {
+  position: absolute;
+  display: table-header-group;
+  flex-direction:;
+  justify-content: safe right;
+  width: 98%;
+  height: 9vw;
+  text-align: right;
+  padding: 14px;
+  z-index: 8;
+}
+
+#introimg {
+ margin-top: 200px;
+}
+
+#content {}
+
+.regimages {
+  width: 150px;
+  height: fit-content;
+}
+
+.regimages:hover {
+  transform: translateY(-10px);
+}
+.regimages:active {
+  transform: translateY(-1px);
+}
+
+.regimages2 {
+  width: 150px;
+  height: fit-content;
+  margin-right: 20px;
+}
+
+.regimages3 {
+  width: 50%;
+  height: 50%;
+}
+
+.images {
+  width: width;
+  height: height;
+}
+
+.images:hover {
+  transform: translateY(10px);
+}
+
+<button class="regimages">
+
+.pagelink:
